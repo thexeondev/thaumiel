@@ -1,0 +1,15 @@
+.{
+    .IsLoadMHYBase = 0xE00250,
+    .@"System.Runtime.InteropServices.Marshal::PtrToStringAnsi" = 0x1C963BD0,
+    .@"Foundation.Assets::SetLoginSettingByJson" = 0x81241B0,
+    .@"MiHoYo.SDK.SDKDelegate.LoadFileDelegate::Invoke" = 0x1C5FD020,
+    .sdk_rsa_keys = .{ 0x5512B70, 0x5512B78, 0x5512B88 },
+    .crypto_str = 0x553BEF0,
+    .@"MiHoYo.SDK.DeviceFPManager::GetDeviceFP" = 0x1C1A05E0,
+    .@"System.Security.Cryptography.RSA::Create" = 0x1C8B79A0,
+    .@"System.Security.Cryptography.RSA::FromXmlString" = 0x1C8B7C90,
+    .static_table = 0x514AA38,
+    .@"Foundation.RSAUtil::PublicRsaKey" = 0x33B78,
+    .dither_alpha_strings = .{ 0x551EB88, 0x551EB90 },
+    .@"MoleMole.UIMainCityMiniMenuWidgetController::RefreshGachaTimeIcon" = 0x16044F10,
+}

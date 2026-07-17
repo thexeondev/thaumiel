@@ -1,0 +1,7 @@
+.{
+    .name = .thaumiel,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0xd53f9c21c7331337,
+}
