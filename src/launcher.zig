@@ -90,7 +90,7 @@ pub fn main() void {
     var loader_thread: w.HANDLE = undefined;
     switch (w.ntdll.NtCreateThreadEx(
         &loader_thread, // ThreadHandle
-        .{}, // DesiredAccess
+        w.ACCESS_MASK.Specific.Thread.ALL_ACCESS, // DesiredAccess
         &.{}, // ObjectAttributes
         process_info.hProcess, // ProcessHandle
         @ptrCast(loadlibrary_a), // StartRoutine
