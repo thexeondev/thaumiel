@@ -3,7 +3,7 @@ const std = @import("std");
 const common = @import("common.zig");
 const die = common.die;
 
-const exe_name = "ZenlessZoneZeroBeta.exe";
+const exe_name = "ZenlessZoneZero.exe";
 const dll_name: [:0]const u8 = "thaumiel.dll";
 
 pub fn main() void {
